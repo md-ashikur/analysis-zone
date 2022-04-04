@@ -11,7 +11,7 @@ import Review from './Components/Review/Review';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Apps">
       <Navbar> </Navbar>
       <Routes>
         <Route path='/home' element={<Home></Home>}></Route>
@@ -20,6 +20,7 @@ function App() {
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
       </Routes>
+
     </div>
   );
 }
