@@ -7,7 +7,7 @@ const Cart = (props) => {
     const {name, img, comment} = props.cart;
     return (
        
-            <div className='review-cart mb-5'>
+            <div className='review-cart '>
             <img src={img} alt=""/>
             <h4>{name}</h4>
             <p>{comment}</p>

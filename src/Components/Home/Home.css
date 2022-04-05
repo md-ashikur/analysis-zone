@@ -4,6 +4,7 @@
 .review-in-home{
     display: flex;
     text-align: center;
+
 }
 .title2{
     color: crimson;
@@ -15,4 +16,12 @@
     background-color: crimson;
     border: none;
     color: white;
+}
+
+@media only screen and (max-width: 400px){
+    .review-in-home{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+    
+    }
 }

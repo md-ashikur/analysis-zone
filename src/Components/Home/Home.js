@@ -6,6 +6,7 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 const Home = () => {
     const [cart, setCart] = useCart();
+    const carts = cart.slice(0, 3);
     return (
         <div>
             <div className='header container'>
@@ -26,7 +27,7 @@ const Home = () => {
             <h2>Customer Reviews(3)</h2>
             <div className='review-in-home'>
             {
-                cart.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
+                carts.map(cart => <Cart key={cart.id} cart={cart}></Cart>)
             }
             </div>
             <Link to='/review'><button className='live-btn px-5 py-2 mb-5'>See All Reviews</button></Link>
