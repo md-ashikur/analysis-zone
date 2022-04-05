@@ -3,10 +3,10 @@
 [Analysis Zone](https://analysis-zone.netlify.app/).
 
 ## About website
-** It's a laptop analysis website.
-** It has review page where you can see customers review.
-** In dashboard page you will see different types  of rechart.
-** this website made with react, bootstrap, react font awesome, rechart.
+“*” It's a laptop analysis website.
+“*” It has review page where you can see customers review.
+“*” In dashboard page you will see different types  of rechart.
+“*” this website made with react, bootstrap, react font awesome, rechart.
 
 
 ## Learn More
