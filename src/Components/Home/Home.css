@@ -5,3 +5,14 @@
     display: flex;
     text-align: center;
 }
+.title2{
+    color: crimson;
+    font-weight: 700;
+}
+.live-btn{
+    outline: none;
+    border-radius: 5px;
+    background-color: crimson;
+    border: none;
+    color: white;
+}

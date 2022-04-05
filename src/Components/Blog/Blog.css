@@ -14,3 +14,21 @@
    
    
 }
+@media only screen and (max-width: 400px){
+    .blog{
+        
+        margin-top: 50px;
+        
+    }
+    .accordion{
+        
+        max-width: 250px;
+        
+        
+    }
+    .accordion-button{
+        width:250px;
+       
+        font-size: 14px;
+    }
+}

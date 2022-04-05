@@ -1,6 +1,7 @@
 .charts{
     display: flex;
     margin: 50px;
+    justify-content: center;
 }
 .chart{
     position: relative;
@@ -8,10 +9,22 @@
     left: -50px;
     text-align: center;
 }
-@media screen and (max-width:390px){
+@media only screen and (max-width: 400px){
     .charts{
         display: block;
-        width: 390px;
+        margin: 50px;
+       
     }
-    
+    .recharts-surface{
+        width: 350px;
+    }
+    .recharts-wrapper{
+        width: 200px !important;
+    }
+    .recharts-default-legend{
+        width: 50px;
+    }
+    .recharts-legend-wrapper{
+        width: 50px !important;
+    }
 }

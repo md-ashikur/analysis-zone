@@ -2,7 +2,7 @@ import React from 'react';
 import './Blog.css';
 const Blog = () => {
     return (
-        <div className='blog'>
+        <div className='blog container'>
 
             <div class="accordion" id="accordionExample">
             <div class="accordion-item">
