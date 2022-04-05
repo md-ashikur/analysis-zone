@@ -69,7 +69,7 @@ const Dashboard = () => {
          </AreaChart>
         </div>
 {/* Chart2====================== */}
-        <div className='chart pie m-2'>
+        <div className='chart m-2'>
             <h2>Month wise sell</h2>
         <LineChart width={730} height={250} data={data}
   margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>

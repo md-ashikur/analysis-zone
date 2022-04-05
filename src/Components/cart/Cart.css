@@ -1,0 +1,12 @@
+
+.review-cart{
+    width: 400px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+}
+.review-cart img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}

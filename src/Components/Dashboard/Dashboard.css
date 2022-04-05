@@ -2,10 +2,11 @@
     display: flex;
     margin: 50px;
 }
-.pie{
+.chart{
     position: relative;
     top: 10px;
     left: -50px;
+    text-align: center;
 }
 @media screen and (max-width:390px){
     .charts{
